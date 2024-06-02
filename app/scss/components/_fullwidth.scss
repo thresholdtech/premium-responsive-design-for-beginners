@@ -1,0 +1,29 @@
+@use "../util" as u;
+
+.fullwidth {
+    @include u.fullwidthmix;
+    background-color:var(--fullwidth-bg);
+   
+    
+    // margin: auto;
+    // padding: 80px 218px;
+
+    &__wrapper{
+    
+    
+    
+    }
+    
+    &__title{
+        // font-size: 48px;
+        // margin-block-end: 20px;
+    }
+
+    
+
+    &__image{
+        margin-inline: auto;
+        max-width: u.rem(792);
+    }
+
+}
