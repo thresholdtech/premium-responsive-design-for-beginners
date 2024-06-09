@@ -17,9 +17,14 @@ body{
     font-family: u.$font;
     background-color: var(--background-color);
     color: var(--text-dark);
-    margin-block-end: 50vh; //temporary, remove after the website is complete
-   
+    margin-block-end: 50vh; //temporary, remove after the website is complete  
 }
+
+input, 
+button {
+    font-family: u.$font;
+}
+
 img{
     display: block;
     height: auto;
